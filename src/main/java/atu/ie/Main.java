@@ -4,10 +4,13 @@ public class Main {
 
     public static void main(String[] args){
         // Create a new person object
-        Person NathanFerry = new Person("Nathan","Ferry",18)
+        Person user = new Person();
+
+        // Get user Input
+        user.getUserInput();
 
         // Call the displayInfo Method
-        NathanFerry.displayInfo();
+        user.displayInfo();
 
     }
 }
